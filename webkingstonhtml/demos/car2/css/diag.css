@@ -1,0 +1,122 @@
+
+		<style type="text/css">
+			html, body {
+				height: 100%;
+				padding: 0;
+				margin: 0;
+			}
+			body {
+				min-height: 500px;
+				background-color: #fff;
+			}
+			body * {
+				font-family: Arial, Geneva, SunSans-Regular, sans-serif;
+				font-size: 14px;
+				color: #333;
+				line-height: 22px;
+			}
+			
+			#wrapper {
+				width: 800px;
+				height: 320px;
+				margin: -160px 0 0 -400px;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				overflow: hidden;
+			}
+			
+			#carousel-title {
+				width: 350px;
+				height: 100px;
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+			#carousel-title p {
+				font-family: arial, helvetica, sans-serif;
+				font-size: 30px;
+				font-weight: bold;
+				color: #999;
+				width: 325px;
+				height: 75px;
+				margin: 0;
+				padding: 25px 0 0 25px;
+				float: left;
+			}
+			#carousel-small,
+			#carousel-large {
+				position: absolute;
+			}
+			#carousel-small {
+				width: 300px;
+				height: 220px;
+				bottom: 0;
+				left: 0;
+			}
+			#carousel-large {
+				width: 600px;
+				height: 300px;
+				top: 0;
+				right: 0;
+			}
+			#carousel-large img {
+				display: block;
+				margin-left: 10px;
+				float: left;
+			}
+			#carousel-small img {
+				display: block;
+				margin-right: 10px;
+				float: right;
+			}
+			#navi {
+				position: absolute;
+				bottom: 0;
+				right: 0;
+			}
+			#navi a {
+				border: 1px solid #999;
+				background-color: #fff;
+				display: block;
+				width: 8px;
+				height: 8px;
+				margin: 0 0 0 4px;
+				float: left;
+			}
+			#navi a:hover {
+				background-color: #ccc;
+			}
+			#navi a.selected {
+				background-color: #999;
+			}
+			#navi a span {
+				display: none;
+			}
+			.slicer {
+				position: absolute;
+				top: 0;
+				left: 155px;
+			}
+			
+			#donate-spacer {
+				height: 100%;
+			}
+			#donate {
+				border-top: 1px solid #999;
+				width: 750px;
+				padding: 50px 75px;
+				margin: 0 auto;
+				overflow: hidden;
+			}
+			#donate p, #donate form {
+				margin: 0;
+				float: left;
+			}
+			#donate p {
+				width: 650px;
+			}
+			#donate form {
+				width: 100px;
+			}
+		</style>
