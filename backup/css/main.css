@@ -279,11 +279,6 @@ input.search-form:hover {
 .navbar-nav>li{
   margin-left: 35px;
   padding-bottom: 28px;
-
-    font-size: 17px;
-    font-family: sans-serif;
-    text-transform: uppercase;
-font-family: 'Patua One', cursive;
 }
 
 .navbar-inverse .navbar-nav > li > a {
